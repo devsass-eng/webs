@@ -179,8 +179,8 @@ header nav ul li a:focus-visible {
 }
 
 .view {
-  background: var(--ink);
-  color: var(--paper);
+  background: none;
+  color: var(--ink);
   border: 2px solid var(--ink);
   padding: 0.7rem 1.4rem;
   border-radius: var(--radius);
@@ -192,9 +192,8 @@ header nav ul li a:focus-visible {
 }
 
 .view:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
 }
 
 /* ---------- about ---------- */
@@ -346,9 +345,9 @@ header nav ul li a:focus-visible {
 }
 
 .w {
-  background: var(--accent);
+  background: none;
   color: var(--ink);
-  border: none;
+  border: 2px solid var(--ink);
   padding: 0.9rem 2rem;
   border-radius: var(--radius);
   font-weight: 700;
@@ -358,7 +357,8 @@ header nav ul li a:focus-visible {
 }
 
 .w:hover {
-  background: var(--accent-dark);
+  background: var(--ink);
+  color: var(--paper);
 }
 
 /* ---------- testimonial ---------- */
@@ -480,9 +480,9 @@ header nav ul li a:focus-visible {
 }
 
 .fin {
-  background: var(--ink);
-  color: var(--paper);
-  border: none;
+  background: none;
+  color: var(--ink);
+  border: 2px solid var(--ink);
   padding: 0.85rem 1.4rem;
   border-radius: var(--radius);
   font-weight: 700;
@@ -492,8 +492,8 @@ header nav ul li a:focus-visible {
 }
 
 .fin:hover {
-  background: var(--accent);
-  color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
 }
 
 /* ---------- footer ---------- */
